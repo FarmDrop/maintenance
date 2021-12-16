@@ -1,0 +1,38 @@
+body {
+  color: #214640;
+  background-color: #f5f8f4;
+  font-family: Apercu, sans-serif;
+  font-size: 1em;
+  margin: 0;
+}
+
+h1 {
+  font-family: Nocturno Display, serif;
+  font-size: 2em;
+}
+
+.container { 
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.content {
+  padding: 1.8em;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    margin-top: -54px;
+    align-items: center;
+  }
+
+  .content {
+    width: 50%;
+  }
+}
+
+#logo {
+  margin-left: -16px;
+  width: 180px;
+}

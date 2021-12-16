@@ -1,0 +1,23 @@
+@font-face {
+  font-family: apercu;
+  src: url("/fonts/apercu-regular-pro.woff2") format("woff2"), url("/fonts/apercu-regular-pro.woff") format("woff"), url("/fonts/apercu-regular-pro.ttf") format("ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+}
+
+@font-face {
+  font-family: apercu;
+  src: url("/fonts/apercu-bold-pro.woff2") format("woff2"), url("/fonts/apercu-bold-pro.woff") format("woff"), url("/fonts/apercu-bold-pro.ttf") format("ttf");
+  font-style: normal;
+  font-weight: 700;
+  font-display: block;
+}
+
+@font-face {
+  font-family: nocturno display;
+  src: url("/fonts/nocturno-display-bold.woff2") format("woff2"), url("/fonts/nocturno-display-bold.woff") format("woff"), url("/fonts/nocturno-display-bold.ttf") format("ttf");
+  font-style: normal;
+  font-weight: 700;
+  font-display: block;
+}
