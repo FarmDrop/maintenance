@@ -14,19 +14,19 @@ h1 {
 .container { 
   display: flex;
   justify-content: center;
-  min-height: 100vh;
 }
 
 .content {
   padding: 1.8em;
 }
 
-@media only screen and (min-width: 768px) {
-  .container {
-    margin-top: -54px;
-    align-items: center;
+@media only screen and (min-width: 450px) {
+  .content {
+    width: 65%;
   }
+}
 
+@media only screen and (min-width: 768px) {
   .content {
     width: 50%;
   }
