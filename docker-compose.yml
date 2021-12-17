@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  web:
+    build: .
+    volumes:
+      - ./static:/usr/share/nginx/html:cached
+    ports:
+      - "${PORT_PREFIX:-3228}0:80"
+    command: [nginx-debug, '-g', 'daemon off;']
